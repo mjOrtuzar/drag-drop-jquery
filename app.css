@@ -1,0 +1,15 @@
+.objeto1{
+    
+    width: 90px;
+	height: 90px;
+}
+.contenedor{
+    width: 90px;
+	height: 90px;
+	padding: 10px;
+	margin: 10px;
+    border: 2px solid black;
+}
+.objeto1,.contenedor{
+    display: inline-block;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ejemplo movil de juego de arrastre</title>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">juego de arrastre</a>
+        </div>
+    </nav>
+
+    <section id="juego" class="valign-wrapper">
+        <div class="container center-align">
+            <div class="row">
+                <div class="col l6 s6">
+                    <img id="imagenpersona" src="imagen.png" alt="" srcset="" width="260" height="260">
+                </div>
+                <div class="col l6 s6">
+                    <img id="sombreropersona" src="sombrero.png" alt="" srcset="" width="160" height="160">
+                </div>
+            </div>
+            <div class="col">
+                <div id="txtCoordenadas"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script src="jQuery.js"></script>
+    <script src="app.js"></script>
+    <script src="jquery-ui.min.js"></script>
+</body>
+</html>
